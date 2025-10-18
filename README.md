@@ -75,9 +75,9 @@ docker-compose exec message-db psql -U message -d message_db -c "SELECT * FROM m
 ```bash
 text
 id |                 uuid                  |       text        
-----+--------------------------------------+------------------
-1 | 085b58f7-9a91-4db7-89a5-fc70d0f470df | Тестовое сообщение 1
-2 | 085b58f7-9a91-4db7-89a5-fc70d0f470df | Тестовое сообщение 2
+----+--------------------------------------+---------------------
+1  | 085b58f7-9a91-4db7-89a5-fc70d0f470df  | Тестовое сообщение 1
+2  | 085b58f7-9a91-4db7-89a5-fc70d0f470df  | Тестовое сообщение 2
 ```
 Структура таблицы:
 ```bash
@@ -89,7 +89,7 @@ text      VARCHAR(256) NOT NULL
 );
 ```
 ## ⚙️ Технические детали
-### Fabric Mod (fabric-mod/)
+### Fabric Mod (mod/)
 - Fabric API 1.21.8 + Fabric Loader 0.17.2
 
 - Protobuf Java 3.25.5 для сериализации
