@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "message-mod",
+  "version": "${version}",
+  "name": "Message Mod",
+  "description": "Mod for sending messages via Protobuf",
+  "authors": ["Georgiy Shelgaas"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gshelgaas.messageserver.MessageMod"
+    ],
+    "client": [
+      "com.gshelgaas.messageserver.MessageModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\controller\MessageController.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\dto\MessageRequestDto.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\entity\MessageEntity.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\exception\ApiError.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\exception\ErrorHandler.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\exception\ProtobufProcessingException.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\MessageServerApplication.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\repository\MessageRepository.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\service\MessageService.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\src\main\java\com\gshelgaas\messageserver\service\MessageServiceImpl.java
+C:\Users\shelg\IdeaProjects\message-mod-1.21.8-project\spring-server\target\generated-sources\protobuf\java\com\gshelgaas\messageserver\protobuf\MessageProto.java

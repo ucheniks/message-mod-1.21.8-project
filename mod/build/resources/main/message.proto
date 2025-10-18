@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.gshelgaas.messageserver.protobuf;
+
+option java_package = "com.gshelgaas.messageserver.protobuf";
+option java_outer_classname = "MessageProto";
+
+message Message {
+  string text = 1;
+}

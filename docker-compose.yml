@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  message-server:
+    build: ./spring-server
+    container_name: message-service
+    ports:
+      - "8080:8080"
+    depends_on:
+      - message-db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://message-db:5432/message_db
+      - SPRING_DATASOURCE_USERNAME=message
+      - SPRING_DATASOURCE_PASSWORD=message
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=none
+
+  message-db:
+    image: postgres:16.1
+    container_name: minecraft-message-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=message
+      - POSTGRES_USER=message
+      - POSTGRES_DB=message_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
