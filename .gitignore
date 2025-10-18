@@ -11,12 +11,9 @@ hs_err_pid*
 replay_pid*
 out/
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-mod/.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -31,3 +28,6 @@ mod/.gradle/
 mod/build/
 mod/run/
 mod/loom-cache/
+
+### Maven ###
+spring-server/target/
